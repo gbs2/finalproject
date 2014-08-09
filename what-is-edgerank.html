@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web Systems Development Final Project">
+    <meta name="author" content="Gillian Sherry">
+    <title>All About EdgeRank</title>
+
+<!-- Links to HTML5 Boilerplate files -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+
+<!--Links to Bootstrap files: -->
+<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+<!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>       
+    
+</head>
+  <body>    
+   <!-- **Navigation** 
+    ======================================================================-->
+   <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container" id="navigation">
+        
+        <div class="navbar navbar-default" role="navigation">          
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">The New EdgeRank</a>
+            </div> <!-- end .navbar-header -->
+
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li><a class="active" href="what-is-edgerank.html">What is it?</a></li>             
+                <li><a href="how-does-edgerank-work.html">How does it work?</a></li>            
+                <li><a href="improve-my-edgerank.html">What can I do?</a></li>
+              </ul>
+              <div class="pull-right hidden-md hidden-sm hidden-xs">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                    </div>
+                    <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i> Search</button>
+                </form>
+              </div>     
+            </div> <!--end .nav-collapse -->
+
+        </div><!-- end .navbar -->
+      </div> <!-- end .container #navigation-->
+    </div> <!-- end .navbar-wrapper --> 
+    
+	 <!-- **Static Carousel/Jumbotron Effect with Background Image** 
+        ==================================================================================-->
+        <div class="container" id="carousel">
+          <div class="carousel slide" id="edgerank-carousel" data-ride="carousel">
+          
+            <!-- Indicators
+            <ol class="carousel-indicators">
+              <li data-target="#edgerank-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#edgerank-carousel" data-slide-to="1"></li>
+              <li data-target="#edgerank-carousel" data-slide-to="2"></li>
+            </ol> -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+              <div class="item active">
+                  <img src="img/what-is-facebooks-new-edgerank.png" alt="edgerank-static-image-1" class="img-responsive">
+                  <div class="carousel-caption" id="what-is">
+                         <p><a class="btn btn-lg btn-success" href="subscribe.html" role="button">Subscribe Today!</a>
+                         <a class="btn btn-lg btn-primary" href="#" role="button">Like Us</a></p>
+                  </div>
+              </div>            
+            </div>  <!-- end .carousel-inner -->     
+            
+          </div> <!-- end .carousel slide -->
+        </div> <!-- end .container #carousel -->
+
+        <!-- Panels 
+        ================================================================================-->
+        <div class="container" id="panels">
+
+            <div class="row" id="subsection-title">
+                <h3 class="text-center">EdgeRank as you Knew It Is Dead:<br>Facebook’s News Feed Algorithm Now Has Close To 100K Weight Factors</h3>
+            </div>
+            
+            <h5><em>By Matt McGee, Published April 16, 2013</em></h5>
+
+            <br>
+
+            <p>The next time you tell a client how Facebook selects and ranks the content that shows up in the News Feed, you’ll need to do it without using the word EdgeRank.</p>
+ 
+            <p>EdgeRank, Facebook’s original News Feed ranking system, is dead.</p>
+             
+            <p>Facebook hasn’t used the word internally for about two-and-a-half years. That’s when the company began employing a more complex ranking algorithm based on machine learning. The current News Feed algorithm doesn’t have a catchy name, but it’s clear from talking to the company’s engineers that EdgeRank is a thing of the past.</p>
+             
+            <p>During a phone call this week, Lars Backstrom, Engineering Manager for News Feed Ranking at Facebook, estimated that there are as many as “100,000 individual weights in the model that produces News Feed.” The three original EdgeRank elements — Affinity, Weight and Time Decay — are still factors in News Feed ranking, but “other things are equally important,” he says.</p>
+             
+            <p>In other words, the News Feed algorithm of today is much more sophisticated than just a couple years ago.</p>
+             
+            <p>“The easiest analogy is to search engines and how they rank web pages,” Backstrom says. “It’s like comparing the Google of today with Alta Vista. Both Google and Bing have a lot of new signals, like personalization, that they use. It’s more sophisticated than the early days of search, when the words on a page were the most important thing.”</p>
+             
+            <p>This has implications for marketers and business owners far beyond the wording used to describe News Feed rankings. It’s a reflection — and a cause, too — of today’s complex battle to reach Facebook users organically.</p>
+             
+            <p>The winners? They’ll be the ones who understand how Facebook has moved past Affinity, Weight and Time Decay, and move past it themselves. Before we get into today’s News Feed algorithm, let’s go back a few years.</p><p></p>
+
+            <br>
+
+            <img src="img/knobs.png" class="img-responsive">
+
+            <h4>In The Beginning It Was … Turning Knobs</h4>
+ 
+            <p>Facebook’s News Feed was born in September 2006, promising to provide … and I quote … “a personalized list of news stories throughout the day, so you’ll know when Mark adds Britney Spears to his Favorites or when your crush is single again.”</p>
+             
+            <p>Yep, that’s a direct quote from the announcement. Cute, huh?</p>
+             
+            <p>With the launch of News Feed, Facebook wanted to show users the most important content from their social network without making them click to visit their friends’ profiles. And it had to figure out a way to decide what was important to each person.</p>
+             
+            <p>“In the beginning, News Feed ranking was turning knobs,” said Facebook VP of Product Chris Cox during Facebook’s recent News Feed media event. “Turn up photos a little bit, turn down platform stories a little bit.”</p>
+             
+            <p>Cox gave a funny account of how he and a co-worker sat in Facebook’s offices and changed the ranking “knobs” based on feedback from users — feedback in the form of often angry emails and conversations with users outside the Facebook office.</p>
+             
+            <p>Times were much simpler then.</p>
+
+            <br>
+
+            <h4>From Knobs To EdgeRank</h4>
+ 
+            <p>Facebook has obviously grown up a lot since then, particularly with the simultaneous launch of Facebook Ads and Pages in November 2007.</p>
+             
+            <p>Businesses, clubs, and organizations began creating Facebook Pages and using them to try to reach existing and new fans. That meant more content and more chances for users’ News Feeds to get crowded and unwieldy.</p>
+             
+            <p>The company advanced from “turning knobs” to EdgeRank, the algorithm that a) determined which of the thousands of stories (or “edges” as Facebook called them) qualified to show up in a user’s News Feed, and b) ranked them for display purposes. EdgeRank had three primary pieces:</p>
+
+            <p><i>&bull;</i> Affinity <i>&ndash;</i> i.e., how close is the relationship between the user and the content/source?<br>
+            <i>&bull;</i> Weight <i>&ndash;</i> i.e., what type of action was taken on the content?<br>
+            <i>&bull;</i> Decay <i>&ndash;</i> i.e., how recent/current is the content?</p>
+             
+            <p>EdgeRank made it possible for Facebook to give users a more personalized NewsFeed. As Cox explained, users that played a lot of games on Facebook could see more game-related content in their News Feed. Users that took part in a lot of Group discussions would see more content like that. And so forth.</p>
+
+            <br>
+
+            <p>Source: <a href="http://marketingland.com/edgerank-is-dead-facebooks-news-feed-algorithm-now-has-close-to-100k-weight-factors-55908" target="_blank"><em>See original post here.</em></a></p>
+             
+	    </div><!-- end .container #panels -->
+
+	
+        <!-- **Footer**
+        ================================================================================ -->
+        <div class="container" id="footer">
+
+            <!-- Secondary Navigation -->
+            <div class="row" id="secondary-navigation">
+                <div class="col-md-2 col-md-offset-1">                    
+                    <li>Connect</li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Blog</a></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>Contact</li>
+                    <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><span>800.123.4567</span></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>About us</li>
+                    <li><a href="#" target="_blank">Who We Are</a></li>
+                    <li><a href="#" target="_blank">Our Background</a></li>
+                    <li><a href="#" target="_blank">Press</a></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>Facebook Resources</li>
+                    <li><a href="http://newsroom.fb.com/news/2014/01/news-feed-fyi-what-happens-when-you-see-more-updates-from-friends/" target="_blank">What Happens When You See More Updates from Friends</a></li>
+                    <li><a href="https://www.facebook.com/business/news/News-Feed-FYI-Showing-More-High-Quality-Content" target="_blank">Showing More High Quality Content</a></li>
+                    <li><a href="https://www.facebook.com/business/news/News-Feed-FYI-A-Window-Into-News-Feed" target="_blank">A Window into the News Feed</a></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>Recent News</li>
+                    <li><a href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/06/30/in-defense-of-facebooks-newsfeed-study" target="_blank">In Defense of Facebook's Newsfeed Study</a></li>
+                    <li><a href="http://www.usnews.com/news/articles/2014/07/03/facebook-study-highlights-the-future-of-advertising" target="_blank">Facebook Study Highlights the Future of Advertising</a></li>
+                    <li><a href="http://www.digitalstrategyconsulting.com/netimperative/news/2014/06/facebook_revamps_news_feed_rankings.php" target="_blank">Revamped Rankings for Video</a></li>
+                </div> 
+            </div> <!-- end .row #secondary-navigation  -->              
+
+            <div class="row" id="separator">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 line" ></div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="row" id="footer-bottom">
+                <div class="col-md-12 text-center ">
+                    <a href="#">Privacy Policy</a>
+                    <i>&bull;</i>
+                    <span>&copy; 2014 Web Systems Development Final Project </span>
+                    <i>&bull;</i>
+                    <a class="subscribe" href="subscribe.html">Subscribe</a>
+                </div>
+            </div> <!-- end #footer-bottom -->
+
+        </div> <!-- end .container #footer -->	  
+    
+<!-- Contact Form Dialog Box
+    ============================================================================================= -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal" role="form">
+                    <div class="modal-header">
+                        <h4>Contact Us<h4>
+                    </div>
+                    <div class="modal-body">
+
+                    <div class="form-group"> <!-- Row 1: Intro text --> 
+                      <div class="col-sm-8"> <!-- Column A -->
+                        <div class="form-group">
+                            <label class="col-sm-12">Thanks for reaching out. We'll get back to you soon.</label>                     
+                        </div>
+                      </div> 
+                      <div class="col-sm-4">  <!-- Column B -->                          
+                      </div> <!-- end .col-sm-4 --> 
+                    </div> <!-- end .form-group for Row 1 --> 
+
+                    <div class="form-group"> <!-- Row 2: Form and image -->
+                      
+                      <div class="col-sm-8"> <!-- Column A -->
+                        <div class="form-group"> <!-- Line A -->
+                            <label for="contact-name" class="col-sm-3">Name</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="contact-name" placeholder="First &amp; Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- Line B -->
+                            <label for="contact-email" class="col-sm-3">Email</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="contact-email" placeholder="example@domain.com">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- Line C -->
+                            <label for="contact-message" class="col-sm-3">Message</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer "> <!-- Close/Submit -->
+                            <a class="btn btn-default" data-dismiss="modal">Close</a>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div> <!-- end Column A -->
+                      
+                      <div class="col-sm-4"> <!-- Column B-->
+                            <img src="img/contact-us.png" class="img-responsive">
+                      </div> <!-- end Column B --> 
+
+                    </div> <!-- end .form-group for Row 2 -->
+                    </div><!-- end .modal-body -->                  
+                </form>
+            </div> <!-- end .modal-content -->
+        </div> <!-- end .modal-dialog -->
+    </div> <!-- end .modal -->
+
+    
+<!-- Bootstrap core JavaScript
+    ============================================================================================= -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

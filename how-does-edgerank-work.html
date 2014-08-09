@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web Systems Development Final Project">
+    <meta name="author" content="Gillian Sherry">
+    <title>All About EdgeRank</title>
+
+<!-- Links to HTML5 Boilerplate files -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+
+<!--Links to Bootstrap files: -->
+<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+<!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>      
+    
+</head>
+  <body>    
+   <!-- **Navigation** 
+    ======================================================================-->
+   <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container" id="navigation">
+        
+        <div class="navbar navbar-default" role="navigation">          
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">The New EdgeRank</a>
+            </div> <!-- end .navbar-header -->
+
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li><a href="what-is-edgerank.html">What is it?</a></li>             
+                <li><a class="active" href="how-does-edgerank-work.html">How does it work?</a></li>            
+                <li><a href="improve-my-edgerank.html">What can I do?</a></li>
+              </ul>
+              <div class="pull-right hidden-md hidden-sm hidden-xs">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                    </div>
+                    <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i> Search</button>
+                </form>
+              </div>     
+            </div> <!--end .nav-collapse -->
+
+        </div><!-- end .navbar -->
+      </div> <!-- end .container #navigation-->
+    </div> <!-- end .navbar-wrapper --> 
+    
+	 <!-- **Static Carousel/Jumbotron Effect with Background Image** 
+        ==================================================================================-->
+        <div class="container" id="carousel">
+          <div class="carousel slide" id="edgerank-carousel" data-ride="carousel">
+      
+            <!-- Indicators
+        <ol class="carousel-indicators">
+          <li data-target="#edgerank-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#edgerank-carousel" data-slide-to="1"></li>
+          <li data-target="#edgerank-carousel" data-slide-to="2"></li>
+        </ol> -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+              <img src="img/how-does-it-work.png" alt="edgerank-static-image-2" class="img-responsive">
+              <div class="carousel-caption" id="car4">
+                  <h3>How Does the New EdgeRank Work?</h3>
+                      <p class="lead">The evolution of Facebook's ranking algorithm for News Feed to help determine what stories surface to the top and what updates are being implemented to enhance the organic ranking.</p>
+                      <p><a class="btn btn-lg btn-success" href="subscribe.html" role="button">Subscribe Today!</a>
+                         <a class="btn btn-lg btn-primary" href="#" role="button">Like Us</a></p>
+              </div>
+          </div>        
+        </div>  <!-- end .carousel-inner -->   
+          
+      </div> <!-- end .carousel slide -->
+        </div> <!-- end .container #carousel -->
+
+    <!-- Panels
+    ================================================================================================================ -->
+        <div class="container" id="panels">
+
+            <div class="featurette">
+                <h3 class="text-center">From EdgeRank To… ?</h3>
+
+                <h5><em>By Matt McGee, Published April 16, 2013</em></h5>
+
+                <br>
+
+                <p>With EdgeRank, the way you used Facebook largely determined what showed up in your News Feed. And it still does because, as Cox said last week, “We’re in the business of giving our users the most interesting possible experience every time they visit.”</p>
+ 
+                <p>But now that job is a lot more complicated than ever.</p>
+                 
+                <p>Consider that there are more than a billion people using Facebook each month. And 128 million in the U.S. that use Facebook every day. They’re using dozens of different mobile devices with different capabilities for displaying content. There are 18 million Pages, many of which are actively looking for attention and a way to show up the News Feed as often as possible. And that number doesn’t include the numerous businesses that are using Facebook via regular accounts rather than Pages.</p>
+                 
+                <p>With all of that going on, Facebook says that the typical user has about 1,500 stories that could show in the News Feed on every visit.</p>
+                 
+                <p>So how does Facebook decide what users see, and what content from Facebook Pages make it into the News Feed? As you can imagine, Facebook isn’t about to give away all the details, but Backstrom did talk openly about several ways that the algorithm has grown up in recent years.</p>
+
+            </div>           
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-right" src="img/affinity.png" class="img-responsive">
+              <h3>Affinity, Weight &amp; Time Decay</h3>
+              <p>These are “still important,” Backstrom says, but there are now multiple weight levels. “There are a lot of different facets. We have categories and sub-categories of affinity.”</p>
+       
+                <p>Facebook is attempting to measure how close each user is to friends and Pages, but that measurement isn’t just based on personal interactions. Backstrom says Facebook looks at global interactions, too, and those can outweigh personal interactions if the signal is strong enough.</p>
+       
+                <p>“For example, if we show an update to 100 users, but only a couple of them interact with it, we may not show it in your News Feed. But if a lot of people are interacting with it, we might decide to show it to you, too.”</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-left" src="img/relationship-settings.png" class="img-responsive">
+              <h3>Relationship Settings</h3>
+              <p>Another factor is the relationship settings that Facebook users can apply. With each friend, you can go a step further and label the person a “close friend” or “acquaintance.” With liked Pages, users can choose to “Get notifications” or “Receive updates,” and there are deeper settings to control what kind of content the user wants to see.</p>
+
+              <p>“We try to extract affinity naturally,” Backstrom says, “but if you go to the trouble to tell us more about your relationships, we will factor that in.”</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-right" src="img/facebook-like.jpg" class="img-responsive">
+              <h3>Post Types</h3>              
+ 
+              <p>The News Feed algorithm takes into account the type of posts that each user tends to like. Users that often interact with photo posts are more likely to see more photo posts in the News Feed, and users that tend to click more on links will see more posts with links.</p>
+                 
+              <p>Backstrom says this is also applied on a deeper level. “It’s not just about global interactions. We also look at what types of posts you interact with the most from each friend.”</p>
+                 
+              <p>In other words, Facebook Page owners that continually publish one type of post are likely not having those posts seen by fans that interact with other types of posts.</p>              
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-left" src="img/facebook-friends-hide.jpg" class="img-responsive">
+              <h3> Hide Post / Spam Reporting</h3>
+             
+              <p>News Feed visibility can also be impacted by users’ ability to hide posts or mark them as spam. But it’s not as simple as having a set threshold that will cause posts to stop showing in users’ News Feeds.</p>
+               
+              <p>“For every story, we do the same computation,” Backstrom explains. “Given this story, and given the user’s history, what’s the probability that you’ll like this story? What’s the probably that you’ll hide it? We’re looking at this and trying to decide, is it a net positive to show this story in the News Feed?”</p>
+               
+              <p>Further, Backstrom says there’s an element of decay when considering posts that have been hidden. Recent “hides” may carry more weight when deciding if a post shows in the News Feed, but those “hides” will have less impact as they decay over time.</p>
+            </div>           
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-right" src="img/facebook-timeline.jpg" class="img-responsive">
+              <h3>Clicking On Ads, Viewing Other Timelines</h3>              
+ 
+              <p>The News Feed algorithm is completely separate from the algorithm that decides what ads to show, when to show ads, and where to show them. But how a user interacts with Facebook ads can influence what shows in the News Feed.</p>
+                 
+              <p>“Nothing is off the table when we’re looking at what we should show users,” Backstrom says. “It can be clicking on ads or looking at other timelines. It doesn’t have to be just what the user interacts with in the News Feed.”</p>              
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-left" src="img/facebook-mobile.png" class="img-responsive">
+              <h3>Device &amp; Technical Considerations</h3>            
+              <p>Yep, the News Feed algorithm even considers what device is being used and things like the speed of a user’s internet connection when deciding what to show.</p>
+               
+              <p>“The technical limitations of some old feature phones make it impossible to show some content,” Backstrom. “We also know that some content doesn’t perform as well with Facebook users on certain devices. And if the user has a slow internet connection, we may show more text updates. We’re trying to show users content that they’ll find interesting and want to interact with.”</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <img class="featurette-image pull-right" src="img/story-bumping.png" class="img-responsive">
+              <h3>Story Bumping &amp; Last Actor</h3>
+              <p>Don’t forget these two changes that Facebook just announced last week. Story Bumping bends the “decay” rules by giving older, unseen posts a second chance at News Feed visibility if they’re still getting interaction.</p>
+                 
+              <p>Last Actor puts a premium on recency. Facebook is tracking a user’s most recent 50 interactions and giving them more weight when deciding what to show in the News Feed. This works on a rolling basis, so the value of an interaction will decline after the user has made 50 more recent interactions.</p>          
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+ 
+            <div class="featurette">
+                <h3>Final Thoughts</h3>                
+             
+                <p>It should be clear that Facebook’s News Feed algorithm has developed significantly over the past few years. EdgeRank is a thing of the past, and it’s been replaced by a machine learning-based algorithm that, as Backstrom says, “only ever gets more complicated.”</p>
+                 
+                <p> poses new challenges for brands and marketers hoping to get attention on Facebook, but the company says its advice to Page owners and others is the same: Create and publish and a variety of interesting content that will attract shares, comments, likes and clicks. That requires understanding your Facebook fans — from the types of posts they interact with to the different devices they might be using when they’re on Facebook.</p>
+                 
+                <p>We’ll keep reporting on Facebook’s News Feed changes, and our contributing writers will keep sharing tips and advice, too. You might also keep an eye on the new Facebook for Business news page because the company has promised to be more open in the future about changes that affect how the News Feed works.</p>
+
+                <br>
+
+                <p>Source: <a href="http://marketingland.com/edgerank-is-dead-facebooks-news-feed-algorithm-now-has-close-to-100k-weight-factors-55908" target="_blank"><em>See original post here.</em></a></p>
+            </div>
+             
+	    </div><!-- end .container #panels -->	
+	
+        <!-- **Footer** 
+        ===========================================================================================================-->
+        <div class="container" id="footer">
+
+            <!-- Secondary Navigation -->
+            <div class="row" id="secondary-navigation">
+                <div class="col-md-2 col-md-offset-1">                    
+                    <li>Connect</li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Blog</a></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>Contact</li>
+                    <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><span>800.123.4567</span></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>About us</li>
+                    <li><a href="#" target="_blank">Who We Are</a></li>
+                    <li><a href="#" target="_blank">Our Background</a></li>
+                    <li><a href="#" target="_blank">Press</a></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>Facebook Resources</li>
+                    <li><a href="http://newsroom.fb.com/news/2014/01/news-feed-fyi-what-happens-when-you-see-more-updates-from-friends/" target="_blank">What Happens When You See More Updates from Friends</a></li>
+                    <li><a href="https://www.facebook.com/business/news/News-Feed-FYI-Showing-More-High-Quality-Content" target="_blank">Showing More High Quality Content</a></li>
+                    <li><a href="https://www.facebook.com/business/news/News-Feed-FYI-A-Window-Into-News-Feed" target="_blank">A Window into the News Feed</a></li>
+                </div>
+                <div class="col-md-2">                    
+                    <li>Recent News</li>
+                    <li><a href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/06/30/in-defense-of-facebooks-newsfeed-study" target="_blank">In Defense of Facebook's Newsfeed Study</a></li>
+                    <li><a href="http://www.usnews.com/news/articles/2014/07/03/facebook-study-highlights-the-future-of-advertising" target="_blank">Facebook Study Highlights the Future of Advertising</a></li>
+                    <li><a href="http://www.digitalstrategyconsulting.com/netimperative/news/2014/06/facebook_revamps_news_feed_rankings.php" target="_blank">Revamped Rankings for Video</a></li>
+                </div> 
+            </div> <!-- end .row #secondary-navigation  -->              
+
+            <div class="row" id="separator">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 line" ></div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="row" id="footer-bottom">
+                <div class="col-md-12 text-center ">
+                    <a href="#">Privacy Policy</a>
+                    <i>&bull;</i>
+                    <span>&copy; 2014 Web Systems Development Final Project </span>
+                    <i>&bull;</i>
+                    <a class="subscribe" href="subscribe.html">Subscribe</a>
+                </div>
+            </div> <!-- end #footer-bottom -->
+
+        </div> <!-- end .container #footer -->  
+    
+<!-- Contact Form Dialog Box
+    ============================================================================================= -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal" role="form">
+                    <div class="modal-header">
+                        <h4>Contact Us<h4>
+                    </div>
+                    <div class="modal-body">
+
+                    <div class="form-group"> <!-- Row 1: Intro text --> 
+                      <div class="col-sm-8"> <!-- Column A -->
+                        <div class="form-group">
+                            <label class="col-sm-12">Thanks for reaching out. We'll get back to you soon.</label>                     
+                        </div>
+                      </div> 
+                      <div class="col-sm-4">  <!-- Column B -->                          
+                      </div> <!-- end .col-sm-4 --> 
+                    </div> <!-- end .form-group for Row 1 --> 
+
+                    <div class="form-group"> <!-- Row 2: Form and image -->
+                      
+                      <div class="col-sm-8"> <!-- Column A -->
+                        <div class="form-group"> <!-- Line A -->
+                            <label for="contact-name" class="col-sm-3">Name</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="contact-name" placeholder="First &amp; Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- Line B -->
+                            <label for="contact-email" class="col-sm-3">Email</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="contact-email" placeholder="example@domain.com">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- Line C -->
+                            <label for="contact-message" class="col-sm-3">Message</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer "> <!-- Close/Submit -->
+                            <a class="btn btn-default" data-dismiss="modal">Close</a>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div> <!-- end Column A -->
+                      
+                      <div class="col-sm-4"> <!-- Column B-->
+                            <img src="img/contact-us.png" class="img-responsive">
+                      </div> <!-- end Column B --> 
+
+                    </div> <!-- end .form-group for Row 2 -->
+                    </div><!-- end .modal-body -->                  
+                </form>
+            </div> <!-- end .modal-content -->
+        </div> <!-- end .modal-dialog -->
+    </div> <!-- end .modal -->
+
+    
+<!-- Bootstrap core JavaScript
+    ============================================================================================= -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
